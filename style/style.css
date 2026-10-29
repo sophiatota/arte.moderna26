@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Redaction:ital,wght@0,400;0,700;1,400&display=swap');
 .citacao{
     font-family: 'Redaction';
+    padding: 4px;
+    background-color: #2A195B ;
+    color: #C9C9DC;
+    /*border: 1px solid crimson;*/
+    border-radius: 40px;
+    box-shadow: 0 10px 30px rgba(1, 0, 0, 0.749);
+    /*box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);*/
+    text-align: center;
+    width: 400px;
+    margin: 0px auto 0 auto;
+    height: 70px;
+    padding: 19px;
+
 }
 
 *{
@@ -21,7 +34,16 @@ body{
     max-width: 1000px;
     margin: 0 auto;
     text-align: right;
+    
 
+}
+
+.container-card{
+    width: 100%;
+    /*largura*/
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .cabecalho-ini {
@@ -29,8 +51,10 @@ body{
     text-align: center;
     width: 1025px;
     margin: 40px auto 0 auto;
-    height: 90px;
+    height: 100px;
     padding: 20px 0;
+    border-radius: 40px;
+    box-shadow: 0 10px 30px rgba(1, 0, 0, 0.749);
 }
 
 .cabecalho {
@@ -72,9 +96,22 @@ body{
 .img-ass{
     float: left;
     width: 160px;
-    height: 50px;
-    margin-top: -90px;
+    margin-top: -85px;
     height: 88px;
+    border-radius: 40px;
+}
+
+.img-flor{
+    background-position: center;
+    width: 400px;
+    color: #C9C9DC;
+    /*border: 1px solid crimson;*/
+    border-radius: 40px;
+    padding: 19px;
+    
+
+    
+
 }
 .menu-lista{
     /*zera todas as margin*/
@@ -102,8 +139,23 @@ body{
     width: 140px;
     margin-top: -90px;
     color: #23401E;
-    
 }
 
+.secao{
+    padding: 30px 0;
+}
 
+.grade-cards {
+    display: grid;
+    gap: 20px; /* ESPAÇO ENTRE OS CARDS */
+}
 
+.card{
+    padding: 24px;
+    background-color: cornsilk;
+    /*border: 1px solid crimson;*/
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(1, 0, 0, 0.749);
+    /*box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);*/
+    margin: 0 20px;
+}
